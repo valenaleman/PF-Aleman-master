@@ -91,7 +91,7 @@ h6 {
 }
 
 body {
-  background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
+  background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
@@ -205,11 +205,10 @@ ul {
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 400px) {
   body {
-    background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
-    background-size: cover;
+    background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+    background-size: cover;
+    }
   .containter {
     display: block;
     display: flex;
@@ -255,7 +254,7 @@ ul {
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
   body {
-    background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
+    background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
     background-size: cover;
     justify-content: center;
   }
