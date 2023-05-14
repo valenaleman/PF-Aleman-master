@@ -276,7 +276,7 @@ ul {
   }
 }
 .navbar {
-  background-color: transparent transparent !important;
+  background-color: transparent !important;
 }
 
 .nav li a:hover {
