@@ -241,6 +241,15 @@ ul {
     height: 100px;
     width: 200px;
   }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35%;
+    transform: translateX(-50%);
+  }
 }
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {

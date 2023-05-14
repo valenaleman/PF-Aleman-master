@@ -242,6 +242,15 @@ ul {
     font-size: 14px;
     font-weight: 100;
   }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35%;
+    transform: translateX(-50%);
+  }
 }
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
