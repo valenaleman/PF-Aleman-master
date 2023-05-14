@@ -302,15 +302,7 @@ ul {
     grid-row: 4;
   }
 }
-  .iyt {
-    grid-row: 4;
-  }
-}
 
-  .iyt {
-    grid-row: 4;
-  }
-}
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
   body {
