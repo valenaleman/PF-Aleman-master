@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 body {
-  background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
+  background-image: url(https://i.pinimg.com/564x/d2/b7/c0/d2b7c01f78a92081d5ed41478d3c6bf4.jpg);
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
@@ -215,161 +215,7 @@ ul {
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 400px) {
   body {
-    background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  .imagenfrases {
-    justify-content: center;
-    text-align: center;
-    background-position: center;
-    background-attachment: fixed;
-    width: 200px;
-    height: 100px;
-    margin: 10;
-  }
-  .titulo {
-    justify-content: center;
-    text-align: center;
-    font-weight: 200;
-  }
-  .subtitulo {
-    justify-content: center;
-    text-align: center;
-    font-weight: 100;
-  }
-  div.union img.derecha {
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-  }
-  .frases {
-    display: inline-block;
-    line-height: 1.6;
-    max-width: 100%;
-    overflow-x: hidden;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 400px;
-    height: 85px;
-    margin: 10;
-    margin-top: 10px;
-    padding-left: 25px;
-    font-size: 14px;
-    padding: 10px;
-    font-weight: 100;
-  }
-  .union {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .union > h3 {
-    width: 100%;
-  }
-  .contenedorfrases {
-    width: 100%;
-  }
-  .contenedorfrases .frasescontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .contenedorfrases .frasescontainer h3 {
-    text-align: right;
-    margin-bottom: 0;
-  }
-  .contenedorfrases .frasescontainer .números {
-    margin-right: 5px;
-  }
-  .contenedorfrases {
-    margin-bottom: 20px;
-  }
-  .nota {
-    margin: 0;
-  }
-
-  /* Estilos para dispositivos móviles */
-@media screen and (max-width: 400px) {
-  body {
-    background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  .imagenfrases {
-    justify-content: center;
-    text-align: center;
-    background-position: center;
-    background-attachment: fixed;
-    width: 200px;
-    height: 100px;
-    margin: 10;
-  }
-  .titulo {
-    justify-content: center;
-    text-align: center;
-    font-weight: 200;
-  }
-  .subtitulo {
-    justify-content: center;
-    text-align: center;
-    font-weight: 100;
-  }
-  div.union img.derecha {
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-  }
-  .frases {
-    display: inline-block;
-    line-height: 1.6;
-    max-width: 100%;
-    overflow-x: hidden;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 400px;
-    height: 85px;
-    margin: 10;
-    margin-top: 10px;
-    padding-left: 25px;
-    font-size: 14px;
-    padding: 10px;
-    font-weight: 100;
-  }
-  .union {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .union > h3 {
-    width: 100%;
-  }
-  .contenedorfrases {
-    width: 100%;
-  }
-  .contenedorfrases .frasescontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .contenedorfrases .frasescontainer h3 {
-    text-align: right;
-    margin-bottom: 0;
-  }
-  .contenedorfrases .frasescontainer .números {
-    margin-right: 5px;
-  }
-  .contenedorfrases {
-    margin-bottom: 20px;
-  }
-  .nota {
-    margin: 0;
-  }
-
-/* Estilos para dispositivos móviles */
-@media screen and (max-width: 400px) {
-  body {
-    background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
+    background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -468,7 +314,7 @@ ul {
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
   body {
-    background-image: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
+    background-image: url(https://i.pinimg.com/564x/d2/b7/c0/d2b7c01f78a92081d5ed41478d3c6bf4.jpg);
     background-position: center;
     background-image: fixed;
     background-repeat: no-repeat;
