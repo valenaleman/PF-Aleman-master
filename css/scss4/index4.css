@@ -207,7 +207,7 @@ ul {
   body {
     background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     }
   .containter {
     display: block;
