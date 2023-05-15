@@ -76,7 +76,7 @@ footer {
 }
 
 body {
-  background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
+  background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
@@ -190,9 +190,11 @@ ul {
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 400px) {
   body {
-    background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
+    background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
     background-repeat: no-repeat;
-    background-size: 100% cover;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
     }
   .containter {
     display: block;
@@ -253,7 +255,7 @@ ul {
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
   body {
-    background-image: url(https://i.pinimg.com/564x/ea/92/58/ea9258ef112facdea10391c514cd3c2e.jpg);
+    background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
     background-position: center;
     background-image: fixed;
     background-repeat: no-repeat;
