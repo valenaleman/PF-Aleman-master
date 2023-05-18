@@ -1,5 +1,5 @@
 //url
-$body-bg: url(https://i.pinimg.com/564x/fd/25/cc/fd25cc4130db0b4a6085deab09efac44.jpg);
+$body-bg: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
 
 // fonts
 $mainFont: 'Roboto Mono', monospace;
@@ -286,6 +286,7 @@ ul {
         background-size: $body-size;
         background-repeat: $body-repeat;
         background-attachment: $body-attachment;
+        background-position: center center;
     }
 
     .containter {
