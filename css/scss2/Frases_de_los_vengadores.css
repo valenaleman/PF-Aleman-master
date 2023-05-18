@@ -1,9 +1,33 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 h1 {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
   color: blueviolet;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  color: blue;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100;
 }
 
 h5 {
@@ -29,7 +53,7 @@ h6 {
 
 .peliculas {
   font-family: "Roboto Mono", monospace;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .frases2 {
@@ -37,29 +61,10 @@ h6 {
   font-weight: 200;
 }
 
-.puntos {
+.números2 {
   font-family: "Roboto Mono", monospace;
   font-weight: 200;
   color: coral;
-}
-
-.tx-1 {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 200;
-}
-
-.tx-2 {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 200;
-}
-
-.instagram {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 200;
-}
-
-.iyt {
-  vertical-align: middle;
 }
 
 .redes {
@@ -68,6 +73,10 @@ h6 {
 
 .acount {
   color: black;
+}
+
+.centro {
+  vertical-align: middle;
 }
 
 .box-model {
@@ -90,22 +99,18 @@ h6 {
   color: cornflowerblue;
 }
 
-body {
-  background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
-  width: 100%;
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: bottom;
-     object-position: bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% cover;
+.iyt {
+  vertical-align: middle;
+}
+
+footer {
+  display: block;
+  justify-content: center;
 }
 
 #header {
   margin: auto;
-  width: 700px;
+  width: 500;
   font-family: "Roboto Mono", monospace;
   font-weight: 100;
 }
@@ -146,6 +151,11 @@ ul {
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 10px;
+}
+
+.union {
+  display: flex;
+  justify-content: left;
 }
 
 .caja-1 {
@@ -206,91 +216,114 @@ ul {
 @media screen and (max-width: 400px) {
   body {
     background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
     background-attachment: fixed;
-    }
-  .containter {
-    display: block;
-    display: flex;
+    background-position: center center;
+  }
+  .imagenfrases {
     justify-content: center;
-    align-items: center;
-    width: 400px;
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+    width: 200px;
     height: 100px;
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: flex-start;
+    margin: 10;
   }
   .titulo {
     justify-content: center;
     text-align: center;
     font-weight: 200;
   }
+  .subtitulo {
+    justify-content: center;
+    text-align: center;
+    font-weight: 100;
+  }
+  div.union img.derecha {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+  }
+  .frases {
+    display: inline-block;
+    line-height: 1.6;
+    max-width: 100%;
+    overflow-x: hidden;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 400px;
+    height: 85px;
+    margin: 10;
+    margin-top: 10px;
+    padding-left: 25px;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 100;
+  }
   .union {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .frases {
-    font-size: 14px;
-    font-weight: 100;
+  .union > h3 {
+    width: 100%;
   }
-  .peliculas {
-    font-size: 14px;
-    font-weight: 100;
+  .contenedorfrases {
+    width: 100%;
   }
-  .frases2 {
-    font-size: 14px;
-    font-weight: 100;
-  }
-
-  article {
+  .contenedorfrases .frasescontainer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    position: relative;
-    left: 35%;
-    transform: translateX(-50%);
+  }
+  .contenedorfrases .frasescontainer h3 {
+    text-align: right;
+    margin-bottom: 0;
+  }
+  .contenedorfrases .frasescontainer .números {
+    margin-right: 5px;
+  }
+  .contenedorfrases {
+    margin-bottom: 20px;
+  }
+  .nota {
+    margin: 0;
+  }
+  .iyt {
+    grid-row: 4;
   }
 }
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
   body {
     background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
-    background-size: cover;
-    justify-content: center;
-  }
-  .frases {
-    font-weight: 100;
-    font-size: 15px;
-  }
-  .frases2 {
-    font-weight: 100;
-    float: left;
-    clear: left;
-    font-size: 15px;
-  }
-  .peliculas {
-    font-weight: 100;
-    float: left;
-    clear: left;
-    font-size: 15px;
-  }
-  .contenedorfrases {
-    display: flex;
-    flex-direction: column;
+    background-position: center;
+    background-image: fixed;
+    background-repeat: no-repeat;
+    background-position: contain;
   }
   .union {
     display: flex;
     justify-content: left;
   }
+  .contenedorfrases {
+    display: flex;
+    flex-direction: column;
+  }
+  .frases {
+    float: left;
+    clear: left;
+    font-size: 15px;
+  }
+  .peliculas {
+    font-size: 15px;
+  }
+  .frases2 {
+    font-size: 15px;
+  }
 }
 .navbar {
   background-color: transparent !important;
-}
-
-.nav li a:hover {
-  background-color: #434343;
 }
 
 .nav li a {
@@ -316,15 +349,19 @@ ul {
   display: block;
 }
 
+.nav li a:hover {
+  background-color: #434343;
+}
+
 .nav li ul li:first-child a.menu-link {
-  background-color: lightcoral;
+  background-color: grey;
   color: white;
   padding: 5px;
   display: block;
 }
 
-.nav li ul li:nth-child(4) a.orden-link {
+.nav li ul li:nth-child(2) a.frases-link {
   background-color: lightgray;
   padding: 5px;
   display: block;
-}/*# sourceMappingURL=index4.css.map */
+}/*# sourceMappingURL=Frases_de_los_vengadores.css.map */

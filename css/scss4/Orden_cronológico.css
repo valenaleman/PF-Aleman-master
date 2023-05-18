@@ -8,7 +8,7 @@ h1 {
 
 h5 {
   font-family: "Roboto Mono", monospace;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h6 {
@@ -27,15 +27,39 @@ h6 {
   color: violet;
 }
 
+.peliculas {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
 .frases2 {
   font-family: "Roboto Mono", monospace;
   font-weight: 200;
 }
 
-.números2 {
+.puntos {
   font-family: "Roboto Mono", monospace;
   font-weight: 200;
   color: coral;
+}
+
+.tx-1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+}
+
+.tx-2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+}
+
+.instagram {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+}
+
+.iyt {
+  vertical-align: middle;
 }
 
 .redes {
@@ -66,15 +90,6 @@ h6 {
   color: cornflowerblue;
 }
 
-.iyt {
-  vertical-align: middle;
-}
-
-footer {
-  display: block;
-  justify-content: center;
-}
-
 body {
   background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
   width: 100%;
@@ -85,7 +100,7 @@ body {
      object-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% cover;
+  background-size: cover;
 }
 
 #header {
@@ -191,11 +206,11 @@ ul {
 @media screen and (max-width: 400px) {
   body {
     background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
-    }
+  }
   .containter {
     display: block;
     display: flex;
@@ -207,71 +222,58 @@ ul {
     flex-direction: column;
     align-items: flex-start;
   }
-  .imagenfrases {
-    justify-content: center;
-    text-align: center;
-    background-position: center;
-    background-attachment: fixed;
-    width: 200px;
-    height: 80px;
-    margin: 0 auto;
-  }
   .titulo {
     justify-content: center;
     text-align: center;
     font-weight: 200;
   }
+  .union {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .frases {
     font-size: 14px;
     font-weight: 100;
   }
-  .frases2 {
-    display: block;
-    line-height: 1.6;
-    overflow-x: hidden;
-    width: 400px;
-    height: 55px;
-    margin: 10;
-    margin-top: 10px;
-    padding-left: 25px;
-    padding: 10px;
+  .peliculas {
     font-size: 14px;
     font-weight: 100;
   }
-  .derecha {
-    height: 100px;
-    width: 200px;
-  }
-
-  article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 35%;
-    transform: translateX(-50%);
+  .frases2 {
+    font-size: 14px;
+    font-weight: 100;
   }
 }
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
   body {
     background-image: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
-    background-position: center;
-    background-image: fixed;
-    background-repeat: no-repeat;
-    background-position: contain;
+    background-size: cover;
+    justify-content: center;
   }
   .frases {
+    font-weight: 100;
     font-size: 15px;
   }
   .frases2 {
-    display: block;
-    line-height: 1.6;
-    overflow-x: hidden;
-    margin-top: 10px;
-    padding-left: 25px;
-    padding: 10px;
+    font-weight: 100;
+    float: left;
+    clear: left;
     font-size: 15px;
+  }
+  .peliculas {
+    font-weight: 100;
+    float: left;
+    clear: left;
+    font-size: 15px;
+  }
+  .contenedorfrases {
+    display: flex;
+    flex-direction: column;
+  }
+  .union {
+    display: flex;
+    justify-content: left;
   }
 }
 .navbar {
@@ -312,8 +314,8 @@ ul {
   display: block;
 }
 
-.nav li ul li:nth-child(3) a.momentos-link {
+.nav li ul li:nth-child(4) a.orden-link {
   background-color: lightgray;
   padding: 5px;
   display: block;
-}/*# sourceMappingURL=index3.css.map */
+}/*# sourceMappingURL=Orden_cronológico.css.map */
