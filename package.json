@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-    "sass:watch": "sass --watch scss/scss1/index1.scss css/scss1/index1.css && sass --watch scss/scss2/index2.scss css/scss2/index2.css && sass --watch scss/scss3/index3.scss css/scss3/index3.css && sass --watch scss/scss4/index4.scss css/scss4/index4.css"
+    "sass:watch": "sass --watch scss/scss1/Menú.scss css/scss1/Menú.css && sass --watch scss/scss2/Frases_de_los_vengadores.scss css/scss2/Frases_de_los_vengadores.css && sass --watch scss/scss3/Mejores_momentos_de_la_saga.scss css/scss3/Mejores_momentos_de_la_saga.css && sass --watch scss/scss4/Orden_cronológico.scss css/scss4/Orden_cronológico.css"
 },
   "author": "",
   "license": "ISC",
