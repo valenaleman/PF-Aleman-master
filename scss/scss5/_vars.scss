@@ -1,0 +1,124 @@
+// url
+$body-bg: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
+
+// fonts
+$mainFont: 'Roboto Mono', monospace;
+
+// colors
+$mainColor: blueviolet;
+$secondaryColor: violet;
+$tertiaryColor: grey;             
+$fourColor: cornflowerblue;
+
+// font weight
+$fontLight: 100;
+$fontBold: 700;
+$fontMedium: 300;
+$fontHalfMedium: 400;
+$fontAlmostLight: 200;
+
+// size
+$both: both;
+$mediumWidth: 600px;
+$littleMargin: 0;
+$mediumPadding: 10px;
+$box-sizing-border-box: border-box;
+$smallMargin-top: 20px;
+$body-width: 100%;
+$body-height: 300px;
+$body-size: cover;
+
+
+// position
+$left: left;
+$body-ob-fit: cover;
+$body-ob-pos: bottom;
+$body-attachment: fixed;
+
+// custom
+$body-repeat: no-repeat;
+
+body {
+    background-image: $body-bg;
+    width: $body-width;
+    height: $body-height;
+    object-fit: $body-ob-fit;
+    object-position: $body-ob-pos;
+    background-repeat: $body-repeat;
+    background-attachment: $body-attachment;
+    background-size: $body-size;
+}
+
+h1 {
+    font-family: $mainFont;
+    font-weight: $fontBold;
+    color: $mainColor;
+}
+
+h2 {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+}
+
+.números {
+    color: $secondaryColor;
+}
+
+.título {
+    font-weight: $fontMedium;
+    color: $fourColor;
+}
+
+.caja-1 {
+    background-color: $tertiaryColor;
+    max-width: $largeWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $box-sizing-border-box;
+    margin-top: $smallMargin-top;
+  }
+
+  .caja-2 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $box-sizing-border-box;
+    margin-top: $smallMargin-top;
+  }
+
+  .caja-3 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $largeWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $box-sizing-border-box;
+    margin-top: $smallMargin-top;
+  }
+
+  .caja-4 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $box-sizing-border-box;
+    margin-top: $smallMargin-top;
+  }
+
+  .caja-5 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $box-sizing-border-box;
+    margin-top: $smallMargin-top;
+  }
