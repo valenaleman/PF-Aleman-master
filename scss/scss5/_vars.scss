@@ -22,7 +22,7 @@ $both: both;
 $mediumWidth: 600px;
 $littleMargin: 0;
 $mediumPadding: 10px;
-$box-sizing-border-box: border-box;
+$border-box: border-box;
 $smallMargin-top: 20px;
 $body-width: 100%;
 $body-height: 300px;
@@ -86,7 +86,7 @@ h2 {
     margin: $littleMargin;
     float: $left;
     padding: $mediumPadding;
-    box-sizing: $box-sizing-border-box;
+    box-sizing: $border-box;
     margin-top: $smallMargin-top;
   }
 
@@ -97,7 +97,7 @@ h2 {
     margin: $littleMargin;
     float: $left;
     padding: $mediumPadding;
-    box-sizing: $box-sizing-border-box;
+    box-sizing: $border-box;
     margin-top: $smallMargin-top;
   }
 
@@ -108,7 +108,7 @@ h2 {
     margin: $littleMargin;
     float: $left;
     padding: $mediumPadding;
-    box-sizing: $box-sizing-border-box;
+    box-sizing: $border-box;
     margin-top: $smallMargin-top;
   }
 
@@ -119,6 +119,6 @@ h2 {
     margin: $littleMargin;
     float: $left;
     padding: $mediumPadding;
-    box-sizing: $box-sizing-border-box;
+    box-sizing: $border-box;
     margin-top: $smallMargin-top;
   }
