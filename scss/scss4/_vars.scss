@@ -31,7 +31,6 @@ $text-align-justify: justify;
 $flex-direction-row: row;
 $flex-flow-row: row;
 $flex-wrap-wrap: wrap;
-$align-items-center: center;
 $align-items-flex-start: flex-start;
 $justify-content-center: center;
 $middle: middle;
@@ -284,7 +283,7 @@ ul {
         background-image: $body-bg;
         background-size: $body-size;
         background-repeat: $body-repeat;
-        background-position: center center;
+        background-position: $align-items-center $align-items-center;
         background-attachment: $body-attachment;
     }
 
