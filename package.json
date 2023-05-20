@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-    "sass:watch": "sass --watch scss/scss1/Menú.scss css/scss1/Menú.css && sass --watch scss/scss2/Frases_de_los_vengadores.scss css/scss2/Frases_de_los_vengadores.css && sass --watch scss/scss3/Mejores_momentos_de_la_saga.scss css/scss3/Mejores_momentos_de_la_saga.css && sass --watch scss/scss4/Orden_cronológico.scss css/scss4/Orden_cronológico.css"
+    "sass:watch": "sass --watch scss/scss1/Menú.scss css/scss1/Menú.css && sass --watch scss/scss2/Frases_de_los_vengadores.scss css/scss2/Frases_de_los_vengadores.css && sass --watch scss/scss3/Mejores_momentos_de_la_saga.scss css/scss3/Mejores_momentos_de_la_saga.css && sass --watch scss/scss4/Orden_cronológico.scss css/scss4/Orden_cronológico.css && sass --watch scss/scss5/Algunas_teorías_del_UCM.scss css/scss5/Algunas_teorías_del_UCM.css"
 },
   "author": "",
   "license": "ISC",
