@@ -1,5 +1,5 @@
 // dcoration
-$zeroColor: transparent !important;
+$ceroColor: transparent !important;
 $noDecoration: none;
 
 // font width
@@ -24,7 +24,7 @@ $absolute: absolute;
 $width: 140px;
 
 .navbar{
-    background-color: $zeroColor;
+    background-color: $ceroColor;
 }
 
 .nav li a:hover {
@@ -35,7 +35,7 @@ $width: 140px;
     background-color: $secondaryColor;
     color: $tertiaryColor;
     width: $fontRegular;
-    text-decoration: $display-none;
+    text-decoration: $noDecoration;
     padding: $mediumPadding;
     display: $display-block;
 }
@@ -58,10 +58,10 @@ $width: 140px;
     background-color: $fourColor;
     color: $secondaryColor;
     padding: $smallPading;
-    display: $display-block;
+    display: block;
 }
 
-.nav li ul li:nth-child(4) a.orden-link {
+.nav li ul li:nth-child(3) a.momentos-link {
     background-color: $fiveColor;
     padding: $smallPading;
     display: $display-block;
