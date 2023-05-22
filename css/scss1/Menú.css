@@ -45,6 +45,12 @@ h6 {
   vertical-align: middle;
 }
 
+.video {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
 footer {
   display: block;
   justify-content: center;
