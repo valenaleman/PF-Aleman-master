@@ -28,6 +28,7 @@ $fontRegular: 500;
 
 // position
 $display-block: block;
+$display-flex: flex;
 $body-pos: center;
 $twobody-pos: contain;
 $threebody-pos: bottom;
@@ -37,6 +38,7 @@ $body-text-align: center;
 $text-align-justify: justify;
 $middle: middle;
 $justify-content-center: center;
+$left: left;
 
 // custom
 $body-repeat: no-repeat;
@@ -86,6 +88,12 @@ h6 {
 
 .iyt {
     vertical-align: $middle;
+}
+
+.video {
+    display: $display-flex;
+    align-items: $left;
+    justify-content: $left;
 }
 
 footer {
