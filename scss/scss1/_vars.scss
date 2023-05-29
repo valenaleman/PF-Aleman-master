@@ -7,10 +7,18 @@ $secondaryColor: gray;
 $tertiaryColor: rebeccapurple;
 $fourColor: Black;
 $fiveColor: rgba(255, 0, 0, 0);
+$root-bg: hsl(223,10%,90%);
+$root-fg: hsl(223,10%,10%);
+$root-primary: hsl(223,90%,55%);
+$root-yellow: hsl(38,90%,55%);
+$root-yellow-t: hsla(38,90%,55%,0);
+$background-color: var(--bg);
+$color: var(--fg);
 
 
 // fonts
 $mainFont: 'Roboto Mono', monospace;
+$fontstar: 1em/1.5 "DM Sans", sans-serif;
 
 // size
 $textSm: .8em;
@@ -20,11 +28,13 @@ $textXl: 3em;
 $largePadding: 10px 0 10px 5px;
 $largeMargin: 30px 5px 5px 15px;
 $body-height: 100vh;
+$box-sizing: border-box;
 
 // font weight
 $fontLight: 100;
 $fontBold: 700;
 $fontRegular: 500;
+$calc: calc(24px + (30 - 24) * (100vw - 320px) / (1280 - 320));
 
 // position
 $display-block: block;
@@ -39,11 +49,14 @@ $text-align-justify: justify;
 $middle: middle;
 $justify-content-center: center;
 $left: left;
+$cero: 0;
 
 // custom
 $body-repeat: no-repeat;
 $solid: solid;
 $miniBorder: 10px;
+$root-bezier: cubic-bezier(0.42,0,0.58,1);
+$root-trans-dur: 0.3s;
 
 body {
     background-image: $body-bg;
@@ -95,6 +108,13 @@ h6 {
     align-items: $left;
     justify-content: $left;
 }
+
+.gray-box {
+    background-color: gray;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+  }
 
 footer {
     display: $display-block;
