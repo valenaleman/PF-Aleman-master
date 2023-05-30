@@ -71,6 +71,10 @@ footer {
     background-position: center bottom 20px;
     height: 100vh;
   }
+  .video {
+    display: flex;
+    width: 100%;
+  }
 }
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {

@@ -103,6 +103,16 @@ h2 {
     background-position: center center;
     background-attachment: fixed;
   }
+  .containerblogs {
+    max-width: 150%;
+    max-height: 150%;
+    border: 1px solid transparent;
+    margin-left: calc((100% - 550px) / 2);
+    margin-right: calc((100% - 550px) / 2);
+    background-size: 1000px;
+    width: 116%;
+    height: 50%;
+  }
 }
 /* Estilos para dispositivos desktop */
 @media screen and (max-width: 1500px) {
