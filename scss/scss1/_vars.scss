@@ -133,7 +133,11 @@ footer {
     background-position: $body-pos $threebody-pos $fourbody-pos;
     height: $body-height;
     }
- 
+
+    .video {
+        display: $display-flex;
+        width: $width;
+      } 
 }
 
 /* Estilos para dispositivos desktop */

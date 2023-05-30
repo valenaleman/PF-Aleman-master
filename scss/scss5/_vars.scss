@@ -31,6 +31,9 @@ $body-size: cover;
 $largeWidth: 500px;
 $littleMargin: 0;
 $width: 100%;
+$background-size: 1000px;
+$widthLarge: 116%;
+$heightMedium: 50%;
 
 // position
 $left: left;
@@ -40,9 +43,12 @@ $body-attachment: fixed;
 $justify-content-center: center;
 $padding: 20px;
 $margin: 0 auto;
+$width-height: 150%;
+$margin-left-right: calc((100% - 550px) / 2);
 
 // custom
 $body-repeat: no-repeat;
+$border: 1px solid transparent;
 
 body {
     background-image: $body-bg;
@@ -146,6 +152,17 @@ h2 {
       background-repeat: $body-repeat;
       background-position: center center;
       background-attachment: $body-attachment;
+  }
+
+  .containerblogs {
+    max-width: $width-height;
+    max-height: $width-height;
+    border: $border;
+    margin-left: $margin-left-right;
+    margin-right: $margin-left-right;
+    background-size: $background-size;
+    width: $widthLarge;
+    height: $heightMedium;
   }
 }
 

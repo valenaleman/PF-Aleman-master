@@ -66,6 +66,8 @@ $body-image: fixed;
 $body-postwo: contain;
 $padding: 20px;
 $margin: 0 auto;
+$width-height: 150%;
+$margin-left-right: calc((100% - 550px) / 2);
 
 // size 
 $largePadding: 10px 0 10px 5px;
@@ -91,12 +93,16 @@ $miniHeighttwo: 55px;
 $mediumMargin: 10;
 $miniMargin-top: 10px;
 $width: 100%;
+$background-size: 1000px;
+$widthLarge: 116%;
+$heightMedium: 50%;
 
 // custom
 $solid: solid;
 $miniBorder: 10px;
 $body-repeat: no-repeat;
 $list-style: none;
+$border: 1px solid transparent;
 
 h1 {
     font-family: $mainFont;
@@ -351,6 +357,17 @@ ul {
         height: $largeHeight;
         width: $smallWidth;
     }
+
+    .containerblogs {
+        max-width: $width-height;
+        max-height: $width-height;
+        border: $border;
+        margin-left: $margin-left-right;
+        margin-right: $margin-left-right;
+        background-size: $background-size;
+        width: $widthLarge;
+        height: $heightMedium;
+      }
 }
 
 /* Estilos para dispositivos desktop */
