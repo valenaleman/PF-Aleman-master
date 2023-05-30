@@ -70,14 +70,6 @@ h6 {
   vertical-align: middle;
 }
 
-.gray-box {
-  background-color: gray;
-  padding: 20px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-
 footer {
   display: block;
   justify-content: center;
@@ -193,6 +185,13 @@ ul {
   padding: 10px;
   box-sizing: border-box;
   margin-top: 20px;
+}
+
+.gray-box {
+  background-color: gray;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* Estilos para dispositivos móviles */

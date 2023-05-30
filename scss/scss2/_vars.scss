@@ -12,6 +12,7 @@ $eightColor: cornflowerblue;
 $nineColor: white;
 $tenColor: rgba(255, 0, 0, 0);
 $elevenColor: grey;
+$twelveColor: gray;
 
 // fonts
 $mainFont: 'Roboto Mono', monospace;
@@ -65,6 +66,9 @@ $twobody-pos: center;
 $body-image: fixed;
 $threebody-poss: contain;
 $middle: middle;
+$center: center;
+$padding: 20px;
+$margin: 0 auto;
 
 // size
 $largePadding: 10px 0 10px 5px;
@@ -93,6 +97,7 @@ $margin-bottom-container: 20px;
 $body-width: 100%;
 $body-height: 300px;
 $body-size: cover;
+$width: 100%;
 
 // customs
 $solid: solid;
@@ -308,6 +313,13 @@ ul {
     padding: $mediumPadding;
     box-sizing: $box-sizing-border-box;
     margin-top: $smallMargin-top;
+  }
+
+  .gray-box {
+    background-color: $twelveColor;
+    padding: $padding;
+    margin: $margin;
+    width: $width;
   }
 
 /* Estilos para dispositivos móviles */

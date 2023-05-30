@@ -9,6 +9,7 @@ $mainColor: blueviolet;
 $secondaryColor: violet;
 $tertiaryColor: grey;             
 $fourColor: cornflowerblue;
+$fiveColor: gray;
 
 // font weight
 $fontLight: 100;
@@ -29,6 +30,7 @@ $body-height: 300px;
 $body-size: cover;
 $largeWidth: 500px;
 $littleMargin: 0;
+$width: 100%;
 
 // position
 $left: left;
@@ -36,6 +38,8 @@ $body-ob-fit: cover;
 $body-ob-pos: bottom;
 $body-attachment: fixed;
 $justify-content-center: center;
+$padding: 20px;
+$margin: 0 auto;
 
 // custom
 $body-repeat: no-repeat;
@@ -123,6 +127,13 @@ h2 {
     padding: $mediumPadding;
     box-sizing: $border-box;
     margin-top: $smallMargin-top;
+  }
+
+  .gray-box {
+    background-color: $fiveColor;
+    padding: $padding;
+    margin: $margin;
+    width: $width;
   }
 
   /* Estilos para dispositivos móviles */

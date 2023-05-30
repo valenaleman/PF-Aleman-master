@@ -13,6 +13,7 @@ $fiveColor: black;
 $sixColor: cornflowerblue;
 $sevenColor: grey;
 $eightColor: rgba(255, 0, 0, 0);
+$nineColor: gray;
 
 // font weight
 $fontLight: 100;
@@ -50,6 +51,8 @@ $left: left;
 $miniMargin: 0 auto;
 $column: column;
 $text-align-center: center;
+$padding: 20px;
+$margin: 0 auto;
 
 // size 
 $largePadding: 10px 0 10px 5px;
@@ -69,6 +72,7 @@ $box-sizing-border-box: border-box;
 $smallMargin-top: 20px;
 $body-size: cover;
 $largeHeight: 100px;
+$width: 100%;
 
 // custom
 $solid: solid;
@@ -272,6 +276,13 @@ ul {
     padding: $mediumPadding;
     box-sizing: $box-sizing-border-box;
     margin-top: $smallMargin-top;
+  }
+
+  .gray-box {
+    background-color: $nineColor;
+    padding: $padding;
+    margin: $margin;
+    width: $width;
   }
 
 /* Estilos para dispositivos móviles */

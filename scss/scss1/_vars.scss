@@ -29,6 +29,7 @@ $largePadding: 10px 0 10px 5px;
 $largeMargin: 30px 5px 5px 15px;
 $body-height: 100vh;
 $box-sizing: border-box;
+$width: 100%;
 
 // font weight
 $fontLight: 100;
@@ -50,6 +51,8 @@ $middle: middle;
 $justify-content-center: center;
 $left: left;
 $cero: 0;
+$padding: 20px;
+$margin: 0 auto;
 
 // custom
 $body-repeat: no-repeat;
@@ -110,10 +113,10 @@ h6 {
 }
 
 .gray-box {
-    background-color: gray;
-    padding: 20px;
-    margin: 0 auto;
-    width: 100%;
+    background-color: $secondaryColor;
+    padding: $padding;
+    margin: $margin;
+    width: $width;
   }
 
 footer {
