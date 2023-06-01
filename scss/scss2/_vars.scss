@@ -31,43 +31,24 @@ $fontMinitwo: 15px;
 $display-flex: flex;
 $display-block: block;
 $display-grid: grid;
-$display-none: none;
 $display-inline-bock: inline-block;
-$flex-direction-row: row;
-$flex-flow-row: row;
-$flex-wrap-wrap: wrap;
-$align-items-center: center;
-$justify-content-center: center;
-$align-content-center: center;
-$justify-items-center: center;
-$margin-left-auto: auto;
-$margin-right-auto: auto;
-$justify-content-left: left;
+$row: row;
+$center: center;
+$auto: auto;
 $left: left;
-$text-align-center: center;
 $miniMargin: 0 auto;
 $mini-line-height: 1.6;
 $hidden-overflow-x: hidden;
-$cover-object-fit: cover;
 $column: column;
 $wrap: wrap;
 $row: 4;
 $text-align-justify: justify;
-$medium-grid-template-columns: 50px;
-$medium-grid-template-rows: 50px;
-$grid-gap: 10px;
-$miniGap: 10px;
-$grid-template-columns: 400px;
+$px: 50px;
 $grid-template-rows: 1px;
-$body-fit: cover;
 $body-pos: bottom;
-$body-attachment: fixed;
-$twobody-pos: center;
-$body-image: fixed;
-$threebody-poss: contain;
+$fixed: fixed;
+$twobody-poss: contain;
 $middle: middle;
-$center: center;
-$padding: 20px;
 $margin: 0 auto;
 $width-height: 150%;
 $margin-left-right: calc((100% - 550px) / 2);
@@ -76,29 +57,25 @@ $margin-left-right: calc((100% - 550px) / 2);
 $largePadding: 10px 0 10px 5px;
 $largeMargin: 30px 5px 5px 15px;
 $largeWidth: 700px;
-$largeWidthtwo: 400px;
+$threepx: 400px;
 $mediumWidth: 600px;
 $smallWidth: 200px;
 $smallHeight: 200px;
 $miniHeight: 100px;
 $miniHeighttwo: 85px;
 $littleMargin: 0;
-$mediumPadding: 10px;
+$twopx: 10px;
 $box-sizing-border-box: border-box;
 $both: both;
-$smallMargin-top: 20px;
+$threepx: 20px;
 $miniMargin: 10;
-$complete-max-width: 100%;
-$mini-margin-top: 10px;
 $mini-padding-left: 25px;
-$completeWidth: 100%;
 $text-right: right;
 $margin-bottom: 0;
 $margin-right: 5px;
 $margin-bottom-container: 20px;
-$body-width: 100%;
 $body-height: 300px;
-$body-size: cover;
+$cover: cover;
 $width: 100%;
 $background-size: 1000px;
 $widthLarge: 116%;
@@ -106,20 +83,19 @@ $heightMedium: 50%;
 
 // customs
 $solid: solid;
-$miniBorder: 10px;
 $body-repeat: no-repeat;
 $list-style: none;
 $border: 1px solid transparent;
 
 body {
     background-image: $body-bg;
-    width: $body-width;
+    width: $width;
     height: $body-height;
-    object-fit: $body-fit;
+    object-fit: $cover;
     object-position: $body-pos;
     background-repeat: $body-repeat;
-    background-attachment: $body-attachment;
-    background-size: $body-size;
+    background-attachment: $fixed;
+    background-size: $cover;
 }
 
 
@@ -193,17 +169,17 @@ h6 {
 .box-model {
     margin: $largeMargin;
     padding: $largePadding;
-    border: $miniBorder $solid $tenColor;
+    border: $twopx $solid $tenColor;
     text-align: $text-align-justify;
 }
 
 .alineación {
     display: $display-flex;
-    flex-direction: $flex-direction-row;
-    flex-flow: $flex-flow-row;
-    flex-wrap: $flex-wrap-wrap;
-    align-items: $align-items-center;
-    justify-content: $justify-content-center;
+    flex-direction: $row;
+    flex-flow: $row;
+    flex-wrap: $wrap;
+    align-items: $center;
+    justify-content: $center;
 }
 
     .alineación figcaption {
@@ -211,12 +187,12 @@ h6 {
     }
 
 .iyt {
-    vertical-align: middle;
+    vertical-align: $middle;
 }
 
 footer {
 display: $display-block;
-justify-content: $justify-content-center;
+justify-content: $center;
 }
 
 #header {
@@ -232,39 +208,39 @@ ul {
 
 .grid-container {
     display: $display-grid;
-    grid-template-columns: $medium-grid-template-columns; /* 2 columnas */
-    grid-template-rows: $medium-grid-template-rows; /* 2 filas */
-    grid-column-gap: $grid-gap;
-    grid-row-gap: $grid-gap;
+    grid-template-columns: $px; /* 2 columnas */
+    grid-template-rows: $px; /* 2 filas */
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
     /* Centrar items */
-    justify-items: $justify-items-center;
-    align-items: $align-items-center;
-    justify-content: $justify-content-center;
-    align-content: $align-content-center;
-    column-gap: $miniGap;
-    row-gap: $miniGap;
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
 }
 
 .grid-container2 {
     display: $display-grid;
-    grid-template-columns: $grid-template-columns; /* 1 columna */
+    grid-template-columns: $threepx; /* 1 columna */
     grid-template-rows: $grid-template-rows; /*1 fila */
-    grid-column-gap: $grid-gap;
-    grid-row-gap: $grid-gap;
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
     /* Centrar items */
-    margin-left: $margin-left-auto;
-    margin-right: $margin-right-auto;
-    justify-items: $justify-items-center;
-    align-items: $align-items-center;
-    justify-content: $justify-content-center;
-    align-content: $align-content-center;
-    column-gap: $miniGap;
-    row-gap: $miniGap;
+    margin-left: $auto;
+    margin-right: $auto;
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
 }
 
 .union {
     display: $display-flex;
-    justify-content: $justify-content-left;
+    justify-content: $left;
 }
 
 .caja-1 {
@@ -272,9 +248,9 @@ ul {
     max-width: $largeWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $threepx;
   }
 
   .caja-2 {
@@ -283,9 +259,9 @@ ul {
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $threepx;
   }
 
   .caja-3 {
@@ -294,9 +270,9 @@ ul {
     max-width: $largeWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $threepx;
   }
 
   .caja-4 {
@@ -305,9 +281,9 @@ ul {
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $threepx;
   }
 
   .caja-5 {
@@ -316,14 +292,14 @@ ul {
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $threepx
   }
 
   .gray-box {
     background-color: $twelveColor;
-    padding: $padding;
+    padding: $threepx;
     margin: $margin;
     width: $width;
   }
@@ -333,31 +309,31 @@ ul {
 @media screen and (max-width: 400px) {
     body {
         background-image: $body-bg;
-        background-size: $body-size;
+        background-size: $cover;
         background-repeat: $body-repeat;
-        background-attachment: $body-attachment;
+        background-attachment: $fixed;
         background-position: center center;
     }
 
     .imagenfrases {
-        justify-content: $justify-content-center;
-        text-align: $text-align-center;
-        background-position: center;
-        background-attachment: fixed;
+        justify-content: $center;
+        text-align: $center;
+        background-position: $center;
+        background-attachment: $fixed;
         width: $smallWidth;
         height: $miniHeight;
         margin: $miniMargin;
     }
 
     .titulo {
-        justify-content: $justify-content-center;
-        text-align: $text-align-center;
+        justify-content: $center;
+        text-align: $center;
         font-weight: $fontAlmostLight;
     }
 
     .subtitulo {
-        justify-content: $justify-content-center;
-        text-align: $text-align-center;
+        justify-content: $center;
+        text-align: $center;
         font-weight: $fontLight;
     }
 
@@ -370,16 +346,16 @@ ul {
     .frases {
         display: $display-inline-bock;
         line-height: $mini-line-height;
-        max-width: $complete-max-width;
+        max-width: $width;
         overflow-x: $hidden-overflow-x;
-        object-fit: $cover-object-fit;
-        width: $largeWidthtwo;
+        object-fit: $cover;
+        width: $threepx;
         height: $miniHeighttwo;
         margin: $miniMargin;
-        margin-top: $mini-margin-top;
+        margin-top: $twopx;
         padding-left: $mini-padding-left;
         font-size: $fontMini;
-        padding: $mediumPadding;
+        padding: $twopx;
         font-weight: $fontLight;
     }
 
@@ -389,15 +365,15 @@ ul {
     }
 
     .union > h3 {
-        width: $completeWidth;
+        width: $width;
       }
       .contenedorfrases {
-        width: $completeWidth;
+        width: $width;
       }
       .contenedorfrases .frasescontainer {
         display: $display-flex;
         flex-direction: $column;
-        align-items: $align-items-center;
+        align-items: $center;
       }
       .contenedorfrases .frasescontainer h3 {
         text-align: $text-right;
@@ -436,15 +412,15 @@ ul {
 @media screen and (max-width: 1500px) {
     body {
         background-image: $body-bg;
-        background-position: $twobody-pos;
-        background-image: $body-image;
+        background-position: $center;
+        background-image: $fixed;
         background-repeat: $body-repeat;
-        background-position: $threebody-poss;
+        background-position: $twobody-poss;
     }
 
     .union {
         display: $display-flex;
-        justify-content: $justify-content-left;
+        justify-content: $left;
     }
 
     .contenedorfrases {

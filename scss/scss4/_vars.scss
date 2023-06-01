@@ -29,32 +29,23 @@ $display-flex: flex;
 $display-block: block;
 $display-grid: grid;
 $text-align-justify: justify;
-$flex-direction-row: row;
-$flex-flow-row: row;
-$flex-wrap-wrap: wrap;
+$row: row;
+$wrap: wrap;
 $align-items-flex-start: flex-start;
 $middle: middle;
 $body-ob-fit: cover;
 $body-ob-pos: bottom;
 $body-attachment: fixed;
-$medium-grid-template-columns: 50px;
-$medium-grid-template-rows: 50px;
-$grid-gap: 10px;
-$miniGap: 10px;
-$align-items-center: center;
-$justify-content-center: center;
-$align-content-center: center;
-$justify-items-center: center;
-$grid-template-columns: 400px;
+$px: 50px;
+$twopx: 10px;
+$center: center;
 $grid-template-rows: 1px;
 $left: left;
-$miniMargin: 0 auto;
+$zeroauto: 0 auto;
 $column: column;
-$text-align-center: center;
-$padding: 20px;
-$margin: 0 auto;
 $width-height: 150%;
 $margin-left-right: calc((100% - 550px) / 2);
+$twocenter: center center;
 
 // size 
 $largePadding: 10px 0 10px 5px;
@@ -62,16 +53,15 @@ $largeMargin: 30px 5px 5px 15px;
 $body-width: 100%;
 $body-height: 300px;
 $body-size: cover;
-$mediumWidthtwo: 400px;
+$threepx: 400px;
 $largeWidth: 500px;
 $mediumWidth: 600px;
 $indMargin: auto;
 $both: both;
 $largeWidth: 700px;
 $littleMargin: 0;
-$mediumPadding: 10px;
 $box-sizing-border-box: border-box;
-$smallMargin-top: 20px;
+$fourpx: 20px;
 $body-size: cover;
 $largeHeight: 100px;
 $width: 100%;
@@ -81,7 +71,6 @@ $heightMedium: 50%;
 
 // custom
 $solid: solid;
-$miniBorder: 10px;
 $body-repeat: no-repeat;
 $list-style: none;
 $border: 1px solid transparent;
@@ -159,17 +148,17 @@ h6 {
 .box-model {
     margin: $largeMargin;
     padding: $largePadding;
-    border: $miniBorder $solid $eightColor;
+    border: $twopx $solid $eightColor;
     text-align: $text-align-justify;
 }
 
 .alineación {
     display: $display-flex;
-    flex-direction: $flex-direction-row;
-    flex-flow: $flex-flow-row;
-    flex-wrap: $flex-wrap-wrap;
-    align-items: $align-items-center;
-    justify-content: $justify-content-center;
+    flex-direction: $row;
+    flex-flow: $row;
+    flex-wrap: $wrap;
+    align-items: $center;
+    justify-content: $center;
 }
 
     .alineación figcaption {
@@ -200,34 +189,34 @@ ul {
 
 .grid-container {
     display: $display-grid;
-    grid-template-columns: $medium-grid-template-columns; /* 2 columnas */
-    grid-template-rows: $medium-grid-template-rows; /* 2 filas */
-    grid-column-gap: $grid-gap;
-    grid-row-gap: $grid-gap;
+    grid-template-columns: $px; /* 2 columnas */
+    grid-template-rows: $px; /* 2 filas */
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
     /* Centrar items */
-    justify-items: $justify-items-center;
-    align-items: $align-items-center;
-    justify-content: $justify-content-center;
-    align-content: $align-content-center;
-    column-gap: $miniGap;
-    row-gap: $miniGap;
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
 }
 
 .grid-container2 {
     display: $display-grid;
-    grid-template-columns: $grid-template-columns; /* 1 columna */
+    grid-template-columns: $threepx; /* 1 columna */
     grid-template-rows: $grid-template-rows; /*1 fila */
-    grid-column-gap: $grid-gap;
-    grid-row-gap: $grid-gap;
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
     /* Centrar items */
     margin-left: auto;
     margin-right: auto;
-    justify-items: $justify-items-center;
-    align-items: $align-items-center;
-    justify-content: $justify-content-center;
-    align-content: $align-content-center;
-    column-gap: $miniGap;
-    row-gap: $miniGap;
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
 }
 
 .caja-1 {
@@ -235,9 +224,9 @@ ul {
     max-width: $largeWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $fourpx;
   }
 
   .caja-2 {
@@ -246,9 +235,9 @@ ul {
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $fourpx;
   }
 
   .caja-3 {
@@ -257,9 +246,9 @@ ul {
     max-width: $largeWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $fourpx;
   }
 
   .caja-4 {
@@ -268,9 +257,9 @@ ul {
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $fourpx;
   }
 
   .caja-5 {
@@ -279,15 +268,15 @@ ul {
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
-    padding: $mediumPadding;
+    padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $fourpx;
   }
 
   .gray-box {
     background-color: $nineColor;
-    padding: $padding;
-    margin: $margin;
+    padding: $fourpx;
+    margin: $zeroauto;
     width: $width;
   }
 
@@ -299,31 +288,31 @@ ul {
         background-image: $body-bg;
         background-size: $body-size;
         background-repeat: $body-repeat;
-        background-position: $align-items-center $align-items-center;
+        background-position: $twocenter;
         background-attachment: $body-attachment;
     }
 
     .containter {
         display: $display-block;
         display: $display-flex;
-        justify-content: $justify-content-center;
-        align-items: $align-items-center;
-        width: $mediumWidthtwo;
+        justify-content: $center;
+        align-items: $center;
+        width: $threepx;
         height: $largeHeight;
-        margin: $miniMargin;
+        margin: $zeroauto;
         flex-direction: $column;
         align-items: $align-items-flex-start;
     }
 
     .titulo {
-        justify-content: $justify-content-center;
-        text-align: $text-align-center;
+        justify-content: $center;
+        text-align: $center;
         font-weight: $fontAlmostLight;
     }
 
     .union {
         flex-direction: $column;
-        flex-wrap: $flex-wrap-wrap;
+        flex-wrap: $wrap;
     }
     
     .frases {
@@ -359,7 +348,7 @@ ul {
     body {
         background-image: $body-bg;
         background-size: $body-size;
-        justify-content: $justify-content-center;
+        justify-content: $center;
     }
 
     .frases {

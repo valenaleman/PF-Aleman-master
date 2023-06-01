@@ -24,10 +24,9 @@ $mediumWidth: 600px;
 $littleMargin: 0;
 $mediumPadding: 10px;
 $border-box: border-box;
-$smallMargin-top: 20px;
+$px: 20px;
 $body-width: 100%;
 $body-height: 300px;
-$body-size: cover;
 $largeWidth: 500px;
 $littleMargin: 0;
 $width: 100%;
@@ -37,11 +36,10 @@ $heightMedium: 50%;
 
 // position
 $left: left;
-$body-ob-fit: cover;
+$cover: cover;
 $body-ob-pos: bottom;
 $body-attachment: fixed;
 $justify-content-center: center;
-$padding: 20px;
 $margin: 0 auto;
 $width-height: 150%;
 $margin-left-right: calc((100% - 550px) / 2);
@@ -54,11 +52,11 @@ body {
     background-image: $body-bg;
     width: $body-width;
     height: $body-height;
-    object-fit: $body-ob-fit;
+    object-fit: $cover;
     object-position: $body-ob-pos;
     background-repeat: $body-repeat;
     background-attachment: $body-attachment;
-    background-size: $body-size;
+    background-size: $cover;
 }
 
 h1 {
@@ -88,7 +86,7 @@ h2 {
     float: $left;
     padding: $mediumPadding;
     box-sizing: $border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $px;
   }
 
   .caja-2 {
@@ -99,7 +97,7 @@ h2 {
     float: $left;
     padding: $mediumPadding;
     box-sizing: $border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $px;
   }
 
   .caja-3 {
@@ -110,7 +108,7 @@ h2 {
     float: $left;
     padding: $mediumPadding;
     box-sizing: $border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $px;
   }
 
   .caja-4 {
@@ -121,7 +119,7 @@ h2 {
     float: $left;
     padding: $mediumPadding;
     box-sizing: $border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $px;
   }
 
   .caja-5 {
@@ -132,12 +130,12 @@ h2 {
     float: $left;
     padding: $mediumPadding;
     box-sizing: $border-box;
-    margin-top: $smallMargin-top;
+    margin-top: $px;
   }
 
   .gray-box {
     background-color: $fiveColor;
-    padding: $padding;
+    padding: $px;
     margin: $margin;
     width: $width;
   }
@@ -148,7 +146,7 @@ h2 {
 
   body {
       background-image: $body-bg;
-      background-size: $body-size;
+      background-size: $cover;
       background-repeat: $body-repeat;
       background-position: center center;
       background-attachment: $body-attachment;
@@ -171,7 +169,7 @@ h2 {
 @media screen and (max-width: 1500px) {
   body {
       background-image: $body-bg;
-      background-size: $body-size;
+      background-size: $cover;
       justify-content: $justify-content-center;
   }
 }

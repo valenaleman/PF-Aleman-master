@@ -88,8 +88,8 @@ h6 {
 
 .alineación {
   display: flex;
-  flex-direction: row;
-  flex-flow: row;
+  flex-direction: 4;
+  flex-flow: 4;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -137,7 +137,7 @@ ul {
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: 400px; /* 1 columna */
+  grid-template-columns: 20px; /* 1 columna */
   grid-template-rows: 1px; /*1 fila */
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -259,7 +259,7 @@ ul {
     overflow-x: hidden;
     -o-object-fit: cover;
        object-fit: cover;
-    width: 400px;
+    width: 20px;
     height: 85px;
     margin: 10;
     margin-top: 10px;

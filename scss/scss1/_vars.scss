@@ -18,7 +18,6 @@ $color: var(--fg);
 
 // fonts
 $mainFont: 'Roboto Mono', monospace;
-$fontstar: 1em/1.5 "DM Sans", sans-serif;
 
 // size
 $textSm: .8em;
@@ -40,18 +39,15 @@ $calc: calc(24px + (30 - 24) * (100vw - 320px) / (1280 - 320));
 // position
 $display-block: block;
 $display-flex: flex;
-$body-pos: center;
 $twobody-pos: contain;
 $threebody-pos: bottom;
-$fourbody-pos: 20px;
 $body-image: fixed;
-$body-text-align: center;
 $text-align-justify: justify;
 $middle: middle;
-$justify-content-center: center;
+$center: center;
 $left: left;
 $cero: 0;
-$padding: 20px;
+$px: 20px;
 $margin: 0 auto;
 
 // custom
@@ -63,11 +59,11 @@ $root-trans-dur: 0.3s;
 
 body {
     background-image: $body-bg;
-    background-position: $body-pos;
+    background-position: $center;
     background-image: $body-image;
     background-repeat: $body-repeat;
     background-position: $twobody-pos;
-    text-align: $body-text-align;
+    text-align: $center;
 }
 
 .box-model {
@@ -114,14 +110,14 @@ h6 {
 
 .gray-box {
     background-color: $secondaryColor;
-    padding: $padding;
+    padding: $px;
     margin: $margin;
     width: $width;
   }
 
 footer {
     display: $display-block;
-    justify-content: $justify-content-center;
+    justify-content: $center;
 }
 
  /* Estilos para dispositivos móviles */
@@ -130,7 +126,7 @@ footer {
     body {
     background-image: $body-bg;
     background-size: $twobody-pos;
-    background-position: $body-pos $threebody-pos $fourbody-pos;
+    background-position: $center $threebody-pos $px;
     height: $body-height;
     }
 
@@ -145,10 +141,10 @@ footer {
 @media screen and (max-width: 1500px) {
     body {
         background-image: $body-bg;
-        background-position: $body-pos $threebody-pos $fourbody-pos;
+        background-position: $center $threebody-pos $px;
         background-image: $body-image;
         background-repeat: $body-repeat;
         background-position: $twobody-pos;
-        text-align: $body-text-align;
+        text-align: $center;
         }
 }
