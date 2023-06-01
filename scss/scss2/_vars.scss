@@ -62,7 +62,7 @@ $mediumWidth: 600px;
 $smallWidth: 200px;
 $smallHeight: 200px;
 $miniHeight: 100px;
-$miniHeighttwo: 85px;
+$Heighttwo: 100px;
 $littleMargin: 0;
 $twopx: 10px;
 $box-sizing-border-box: border-box;
@@ -80,6 +80,7 @@ $width: 100%;
 $background-size: 1000px;
 $widthLarge: 116%;
 $heightMedium: 50%;
+$twoWidth: 350px;
 
 // customs
 $solid: solid;
@@ -349,8 +350,8 @@ ul {
         max-width: $width;
         overflow-x: $hidden-overflow-x;
         object-fit: $cover;
-        width: $threepx;
-        height: $miniHeighttwo;
+        width: $twoWidth;
+        height: $Heighttwo;
         margin: $miniMargin;
         margin-top: $twopx;
         padding-left: $mini-padding-left;
